@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #15161b;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 70px;
+  color: #ffffff;
+}
+
+.logo span {
+  color: #1a7993;
+}
+
+.secao1 {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.secao1-texto {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+  align-items: center;
+  padding: 10px;
+}
+
+.secao1-texto h2 {
+  font-size: 50px;
+  line-height: 110%;
+}
+
+.secao1-texto p {
+  font-size: 40px;
+  padding: 0 50px;
+  text-align: center;
+  line-height: 110%;
+}
+
+.secao1-texto a {
+  background-color: #1a7993;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 25px;
+  line-height: 50px;
+  border-radius: 5px;
+  padding: 20px 50px;
+}
+
+.secao1 img {
+  width: auto;
+  height: auto;
+  padding: 10px;
+}
+
+.secao2 {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+}
+
+.secao2 h2 {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 70px;
+}
+
+.cards {
+  display: flex;
+  gap: 80px;
+}
+
+.card {
+  background: #2c2f37;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: bold;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.3s ease 0;
+}
+
+.card img {
+  padding-top: 30px;
+  padding-bottom: 5px;
+  width: 50px;
+}
+
+.card:hover {
+  background: #1a7993;
+}
+
+.secao3 {
+  margin-top: 100px;
+  background: #1a7993;
+  display: flex;
+  color: #ffffff;
+  height: 600px;
+}
+
+.secao3 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secao3 h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+}
+
+.secao3 p {
+  font-size: 30px;
+  line-height: 150%;
+}
+
+.secao3 a {
+  margin-top: 50px;
+  color: #000000;
+  text-decoration: none;
+  background: #ffffff;
+  font-size: 25px;
+  padding: 20px 50px;
+}
+
+.secao3 img {
+  height: 600px;
+}
+
+.secao4 {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.secao4 h2 {
+  margin-top: 200px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+}
+
+.secao4 form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.secao4 form input {
+  background: #fffefe;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 500px;
+  height: 50px;
+}
+
+.secao4 button {
+  color: #ffffff;
+  background: #1a7993;
+  border-radius: 5px;
+  padding: 20px 50px;
+  font-weight: bold;
+  font-size: 25px;
+  line-height: 120%;
+  margin-top: 30px;
+}
+
+footer {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #ffffff;
+  padding-bottom: 50px;
+}
+
+footer h3 {
+  font-size: 30px;
+  line-height: 120%;
+}
+
+footer div {
+  display: flex;
+  flex-direction: row;
+}
+
+footer div a img {
+  height: 30px;
+  margin: 0 20px;
+}
